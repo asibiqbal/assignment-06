@@ -42,6 +42,43 @@ header {
 
 .nav-middle ul li {
     list-style: none;
+    position: relative;
+}
+
+.nav-middle ul li::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #112B3C;
+    display: inline-block;
+    position: absolute;
+    top: -4px;
+    right: 0;
+    transition: 0.5s ease-out;
+}
+
+.nav-middle ul li:hover::before {
+    content: '';
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-middle ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #112B3C;
+    display: inline-block;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.5s ease-out;
+}
+
+.nav-middle ul li:hover::after {
+    content: '';
+    width: 100%;
+    transition: 0.5s ease-in-out;
 }
 
 .nav-middle ul li a {
@@ -54,7 +91,6 @@ header {
 
 .nav-middle ul li:hover a {
     color: #F66B0E;
-    ;
 }
 
 .button-right {
@@ -108,11 +144,14 @@ header {
     color: #112B3C;
 }
 
+
+
 .banner-img {
     position: relative;
     left: 939px;
     bottom: 137px;
 }
+
 
 .banner p {
     font-style: normal;
@@ -161,7 +200,7 @@ header {
 /* about section start */
 .about {
     width: 100%;
-    padding-bottom: 80px;
+    padding: 80px 0;
 }
 
 .sec-title {
@@ -523,6 +562,7 @@ footer {
 .footer-item ul li:hover a {
     margin-left: 15px;
     transition: 0.5s;
+    color: #F66B0E;
 }
 
 .footer-content {
