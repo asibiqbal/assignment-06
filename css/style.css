@@ -151,6 +151,7 @@ header {
 .img-fluid {
     min-width: 100%;
     height: auto;
+    height: auto;
     margin-top: -56px;
     z-index: -1;
 }
@@ -331,3 +332,70 @@ header {
 
 
 /* Product End */
+
+/* Testimonial start */
+.testimonial {
+    width: 100%;
+    padding: 80px 0;
+    background: #112B3C;
+}
+
+.testimonial h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.review {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 32px;
+    padding: 0 50px;
+}
+
+.img-client {
+    width: 410px;
+    height: 520px;
+}
+
+.client-content {
+    padding: 50px 0 0 0;
+}
+
+
+.client-content h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.client-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 18px;
+
+}
+
+.client-content span h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #F66B0E;
+    margin-bottom: 10px;
+}
+
+.client-content span p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Testimonial End */
