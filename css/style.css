@@ -399,3 +399,71 @@ header {
 }
 
 /* Testimonial End */
+
+/* Contact Start */
+.contact {
+    width: 100%;
+    padding: 200px 0 80px;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    gap: 0 60px;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #828282;
+    margin: 15px 0 30px;
+}
+
+.first-name {
+    margin-right: 15px;
+}
+
+.contact-form input {
+    padding: 15px 22px;
+    margin-bottom: 15px;
+    border: 1px solid #112B3C;
+}
+
+.contact-form textarea {
+    border: 1px solid #112B3C;
+    padding: 12px 22px 0;
+}
+
+.contact-form textarea,
+input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BDBDBD;
+}
+
+.contact-button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 17px 22px;
+    background: #F66B0E;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Contact End */
