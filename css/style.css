@@ -409,7 +409,6 @@ header {
 .contact-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: flex-start;
     gap: 0 60px;
 }
 
@@ -435,6 +434,11 @@ header {
     padding: 15px 22px;
     margin-bottom: 15px;
     border: 1px solid #112B3C;
+}
+
+.contact-form textarea,
+input:focus {
+    outline: none;
 }
 
 .contact-form textarea {
@@ -467,3 +471,63 @@ input::placeholder {
 }
 
 /* Contact End */
+
+/* Footer start */
+footer {
+    background: #FFF8F0;
+}
+
+.footer-menu {
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 30px;
+}
+
+.footer-item address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    line-height: 160%;
+    color: #112B3C;
+    width: 70%;
+    margin-top: 12px;
+}
+
+.footer-item h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #112B3C;
+    margin-bottom: 12px;
+}
+
+.footer-item ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.footer-item ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #112B3C;
+
+    transition: 0.5s;
+}
+
+.footer-item ul li:hover a {
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.footer-content {
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Footer End */
