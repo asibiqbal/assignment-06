@@ -475,6 +475,10 @@ header {
     border: 1px solid #112B3C;
 }
 
+.name input {
+    width: 39%;
+}
+
 .contact-form textarea,
 input:focus {
     outline: none;
